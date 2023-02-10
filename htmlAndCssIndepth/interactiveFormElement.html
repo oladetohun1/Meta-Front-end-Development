@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Interactive Form Elements</title>
+</head>
+<body>
+    <main>
+        
+        <h1>Book a Table</h1>
+        <form action="" method="post">
+            <div>
+                <label for="booking_date">Booking Date</label>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="Booking_people">Number of people</label>
+                <input type="range" id="Booking_people" name ="Booking_people" min="1" max="10" value="4" oninput="this.nextElementSibling.value = this.value">
+
+                <output>4</output>
+            </div>
+            <div>
+                <label for="booking_location"></label>
+                <input name="booking_location" id="booking_location" list="locations" >
+                <datalist id="locations">
+                    <option value="Downtown"></option>
+                    <option value="Downtown"></option>
+                </datalist>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
