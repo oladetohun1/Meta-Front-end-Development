@@ -15,3 +15,11 @@ This method has three key problems:
 - The length of the URL is limited to around 2000 characters depending on the browser
 - The length of the url is also limited on the web server. popular server such as apache allows up to around 4096 characters
 - Security, data are stored on you browser history and possibly on the request log on the web server.
+
+How does the for work if the method attribute is set to POST
+
+- when the form is submitted using the POST method, the form data is inserted into the content of the http request.
+- When the submit button is pressed it will send an http POST request with the data contained in the body of the request.
+- The HTTP post method is more secure than the HTTP GET method.However, the data could still be read by a third party listening to the HTTP request.
+
+-To secure this completely, HTTPS is used to encrypt the data so that only the sender and receiver can understand the data. Once the web server receives the request, it processes it and sends back an HTTP response. If the request was successful, the response will direct the web browser to a new webpage

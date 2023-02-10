@@ -1,0 +1,15 @@
+<form action="" method="post">
+    <label for="Username">Username:</label><br>
+    <input type="text" id="Username" name="Username" value="admin"><br>
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" value="password"><br>
+    <input type="submit" value="Log In">
+</form>
+
+<!-- How does the for work if the method attribute is set to POST
+
+- when the form is submitted using the POST method, the form data is inserted into the content of the http request.
+- When the submit button is pressed it will send an http POST request with the data contained in the body of the request.
+- The HTTP post method is more secure than the HTTP GET method.However, the data could still be read by a third party listening to the HTTP request.
+
+-To secure this completely, HTTPS is used to encrypt the data so that only the sender and receiver can understand the data. Once the web server receives the request, it processes it and sends back an HTTP response. If the request was successful, the response will direct the web browser to a new webpage -->
