@@ -1,0 +1,6 @@
+There are two ways a form can send data to a server using:
+
+http GET method
+http POST method
+
+you can specify whch method the form should with the method attribute of the form element
