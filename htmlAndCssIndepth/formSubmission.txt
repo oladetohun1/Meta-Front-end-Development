@@ -4,3 +4,14 @@ http GET method
 http POST method
 
 you can specify whch method the form should with the method attribute of the form element
+
+How does this form work if the method attrbute is set to get;
+
+- When the login button is clicked the form data is sent as part of the request URL
+- This means that the user details is appended at the end of the url in the web navigaton bar
+- The web server recieves the http GET request, and extracts the form data from the URL.
+
+This method has three key problems:
+- The length of the URL is limited to around 2000 characters depending on the browser
+- The length of the url is also limited on the web server. popular server such as apache allows up to around 4096 characters
+- Security, data are stored on you browser history and possibly on the request log on the web server.
