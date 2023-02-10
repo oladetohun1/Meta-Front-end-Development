@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Book a table</h1>
+        <form action="" method="post">
+
+            <fieldset id="size">
+                <label >
+                    <input type="radio" value="2" name="size">2 person table <!--//name value should match that of the fieldset--> -->
+                </label>
+                <label for="">
+                    <input type="radio" value="4" name="size"> 4 person table
+                </label>
+                <label for="">
+                    <input type="radio" value= "6"name="size"> 6 person table
+                </label>
+                
+            </fieldset>
+            <fieldset id="location">
+                <input type="radio" name="location" value="indoors" checked> Indoors <!--to select automatically-->
+                <input type="radio" name = "location" value="outdoors">Outdoors
+            </fieldset>
+            <button type="submit">Book table</button>
+        </form>
+    </main>
+</body>
+</html>
