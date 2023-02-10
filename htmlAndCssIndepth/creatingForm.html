@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating A form</title>
+</head>
+<style>
+    /* using css to add style whn invalid */
+   input:focus:invalid{ /*focus makes it turn red after the text is being typed*/
+border: 2px solid red;
+    }
+</style>
+<body>
+    <nav>
+
+    </nav>
+    <main>
+          <!-- a simple sign up form -->
+    <h1>Sign up</h1>
+    <form method="post">
+
+        <div>
+            <!-- id allows to associate the label with the inpuut element -->
+            <label for="user_first_name">First Name</label><br>
+            <!-- using more on the client side validation -->
+            <input type="text" name="user_first_name" id="user_first_name" required minlength="3" maxlength="20">
+        </div>
+        <div>
+            <label for="user_last_name">Last Name</label><br>
+            <input type="text" name="user_last_name" id="user_last_name">
+        </div>
+        <div>
+            <label for="user_email">Email</label><br>
+            <input type="email" name="user_email" id="user_email">
+        </div>
+        <div>
+            <label for="user_password">password</label><br>
+            <input type="password" name="user_password" id="user_password">
+        </div>
+        <div>
+            <label for="user_confirm_password">Confirm password</label><br>
+            <input type="password" id="user_confirm_password" name="user_confirm_password" >
+        </div>
+        <div>
+            <!-- submit to validate the form -->
+          <button type="submit">Sign up</button>  
+        </div>
+        <!-- post http requst improves data security of the form -->
+    </form>  
+    </main>
+<footer>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+*{
+    margin: Auto;
+    box-sizing: border-box;
+
+}
+.container{
+    
+    padding: 30px;
+}
+h1{
+    margin-bottom: 15px;
+}
