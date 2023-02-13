@@ -13,5 +13,13 @@ The flex box container applied over an element can flex to shrink or expand. Thu
     display: flex;
 }
 ```
-## Griid property
-CSS grid is similar to the flex box except it creates a two dimensional grid along both the row and column axes
+## Grid property
+CSS grid is similar to the flex box except it creates a two dimensional grid along both the row and column axes.while the grid increases dimensionality and helps to create an advanced layout with relative ease. It can also lead to increased complications later. If the element rules are not systematically defined.
+
+```
+#sample{
+    display: grid;
+}
+```
+
+There is no strict rule on choosing which layout to use, but in general flex boxes are more suitable when you want to create flexible elements in smaller spaces while grids are more suitable to large scale layouts
