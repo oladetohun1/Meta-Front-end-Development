@@ -13,7 +13,7 @@ The flex box container applied over an element can flex to shrink or expand. Thu
     display: flex;
 }
 ```
-## Alignment properties
+### Alignment properties
  Let’s examine a few alignment properties inside the flex. There are four main properties used to align a flex container and items present inside it:  
 
 - justify-content. For item alignment on main axis.
