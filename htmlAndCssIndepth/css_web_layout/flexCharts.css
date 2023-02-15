@@ -1,0 +1,31 @@
+/* css can be used to gnerate 
+both vertcal and horizontal bar charts using flexbox */
+.row{
+    display: flex;
+    align-items: stretch; /*controls alignmnt along th cross axis
+*/
+}
+
+.row .label{
+    flex: 0 0 auto
+}
+
+.row .container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;/*controls alignmnt along th main axis
+*/ 
+}
+
+.pasta{
+    background-color: yellow ;
+}
+
+.pizza{
+    background-color: aqua;
+
+}
+
+.burrito{
+    background-color: blue;
+}
