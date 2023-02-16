@@ -1,0 +1,15 @@
+*{
+    list-style: none;
+}
+body{
+    color: #333333;
+    background-color: #EE9972;
+    font-family:Cambria;
+}
+
+div ~ ul{
+    background-color: white;
+    color:#495E57;
+    box-shadow: inset 1px 1px 3px #333333;
+    padding: 10px;
+}
