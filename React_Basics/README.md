@@ -1,0 +1,2 @@
+- Create a functional componenet in react
+- Render a component to the root component
