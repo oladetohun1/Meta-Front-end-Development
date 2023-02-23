@@ -1,8 +1,8 @@
-function Nav() {
+function Nav(props) {
   return (
     <nav className="main-nav">
       <ul>
-        <li>Home</li>
+        <li>Home {props.color}</li>
         <li>Articles</li>
         <li>About</li>
         <li>Contact</li>
