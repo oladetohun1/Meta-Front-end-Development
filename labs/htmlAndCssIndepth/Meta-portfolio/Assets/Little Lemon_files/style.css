@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 3rem 5% 3rem 5%;
+  background-color: #EDEFEE;
+  font-family: 'Markazi Text', serif;
+}
+
+header img {
+  margin: 0 auto 2rem auto;
+  display: block;
+  width: fit-content;
+  padding: 2%;
+}
+nav ul {
+  background-color: #00000094;
+  list-style: none;
+  text-align: center;
+  border-radius: 15px;
+}
+nav li {
+  display: inline-grid;
+  margin: 1rem;
+  color: white;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+h2 {
+  margin-left: 15px;
+  font-size: 2rem;
+}
+nav ul a {
+  color: #EDEFEE;
+  text-decoration: none;
+}
+
+nav ul a:active {
+  text-decoration: underline;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.1rem;
+}
+article img{
+  height: 240px;
+  max-width: 100%;
+
+}
+article a:link {
+  font-size: 1.3rem;
+}
+
+article a:hover {
+  color: #495E57;
+}
+
+article a:active {
+  color: #EDEFEE;
+  background-color: #495E57
+}
+.items p{
+  margin: 5%;
+}
+article ul > li{
+  list-style: none;
+  margin-left:40px
+}
+.container .section1 {
+  background-image: url(../Assets/ads.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: fit-content;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+}
+.grid .section2 {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  grid-template-areas:
+    "Article1"
+    "Article2"
+    "Article3";
+}
+.section2 article {
+  background-color: rgba(248, 240, 166, 0.842);
+  border-radius: 5px;
+  margin: 0 auto 2rem auto;
+  width:min-content + 10px;
+}
+.grid .article1 {
+  grid-area: Article1;
+}
+.grid .article2 {
+  grid-area: Article2;
+}
+
+.grid .article3 {
+  grid-area: Article3;
+}
+
+@media (min-width: 720px) {
+  .grid .section2 {
+    grid-template-areas: "Article1 Article2 Article3";
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+hr{
+   width: 100%; 
+   background-color:rgb(73, 42, 42);
+}
+.footer{
+    display: grid;
+    grid-template-columns:auto auto;
+}
+.image > img{
+    height: 100px;
+    width: 100px;
+}
