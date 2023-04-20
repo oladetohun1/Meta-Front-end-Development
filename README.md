@@ -2,7 +2,7 @@
 ---
 ![Meta image](https://noticebard.com/wp-content/uploads/2022/07/Meta-Front-End-Developer-Professional-Certificate.jpg)
 ---
-My journey on the meta-frontEnd professional certification course
+Meta-frontEnd professional certification course
 
 # courses in this specialization
 - [Introduction to Front-End Development](./front-end/)
