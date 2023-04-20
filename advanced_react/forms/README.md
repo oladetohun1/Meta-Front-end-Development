@@ -111,7 +111,6 @@ Uncontrolled components with refs are fine if your form is incredibly simple reg
 Evaluate your specific situation and pick the option that works best for you.
 
 The below table summarizes the features that each one supports:
-```
 | Feature | Controlled | Uncontrolled |
 |---------|------------|--------------|
 | one-time value retrieval (e.g. on submit) | yes | yes |
