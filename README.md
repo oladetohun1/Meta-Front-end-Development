@@ -10,7 +10,7 @@ My journey on the meta-frontEnd professional certification course
 - [version control](./#)
 - [HTML and CSS in depth](./htmlAndCssIndepth/)
 - [React Basis](./React_Basics)
-- [Advanced React](./#)
+- [Advanced React](./advanced_react)
 - [principles of ux/ui Design](./#)
 - [front-End developer capstone](./#)
 - [coding interview preparation](./#)
