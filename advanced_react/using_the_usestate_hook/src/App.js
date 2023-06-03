@@ -15,6 +15,7 @@ function GoalForm(props) {
     e.preventDefault();
     props.onAdd(formData);
     setFormData({ goal: "", by: "" });
+    e.target.reset();
   }
   return (
     <>
@@ -34,7 +35,7 @@ function GoalForm(props) {
           value={formData.by}
           onChange={changeHandler}
         />
-        <button>Submit Goal</button>
+        <button type="submit" >Submit Goal</button>
       </form>
     </>
   );
